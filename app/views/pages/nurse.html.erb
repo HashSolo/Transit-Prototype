@@ -1,0 +1,50 @@
+<div class="grid_12 alpha omega top_options">
+
+	<div class="push_1 grid_11 alpha">
+		<div class="nurse_option round">
+			Schedules
+		</div>	
+		<div class="nurse_sibling round push_1 hidden">
+			December
+		</div>
+		<div class="nurse_sibling round push_1 hidden">
+			January
+		</div> 
+		<div class="nurse_sibling round push_1 hidden">
+			February
+		</div>
+	</div>	
+	
+
+	
+	<div class="push_1 grid_11 alpha">
+		<div class="nurse_option round">
+			Patients
+		</div>	
+		<div class="nurse_sibling round push_1 hidden">
+			Blood Work
+		</div>
+		<div class="nurse_sibling round push_1 hidden">
+			Sonogram
+		</div>
+		<div class="nurse_sibling round push_1 hidden">
+			Medical Records 
+		</div>
+	</div>
+	
+	<div class="push_1 grid_11 alpha">
+		<div class="nurse_option round">
+			Charts
+		</div>	
+	</div>
+	
+
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('div.nurse_option').click(function(){
+		$(this).siblings().toggle('slow');
+	});
+});
+</script>
